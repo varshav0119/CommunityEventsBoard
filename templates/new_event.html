@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Community Events Board</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Link to the style.css -->
+  <link rel="stylesheet" href="../static/css/style.css">
+  <!-- Link to Bootstrap's css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+  <h1>Community Events Board</h1>
+  <div class="event-list">
+    <form method='post' action="/events/new">
+      <label for="event_name">Event Name:</label><br>
+      <input type="text" name="event_name" value=""><br>
+      <label for="event_date">Date:</label><br>
+      <input type="date" name="event_date" value=""><br>
+      <label for="user_name">Name:</label><br>
+      <input type="name" name="user_name" value=""><br>
+      <br>
+      <input type="submit" value="Submit">
+    </form> 
+  </div>
+
+
+
+  <!-- Link to Bootstrap's js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

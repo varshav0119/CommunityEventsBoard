@@ -1,0 +1,19 @@
+body {
+  padding:50px;
+}
+
+li {
+  padding-bottom: 15px;
+  padding-left: 10px;
+	border-radius: 30px;
+	background: #8bcdea;
+}
+
+li + li {
+	margin-top: 20px;
+}
+
+::marker {
+	color: #004b70;
+	font-size: 30px;
+}
